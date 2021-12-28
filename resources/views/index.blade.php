@@ -11,7 +11,7 @@
                     </a>
                 </li>
             @empty
-                <li>no post yet</li>
+                <li>no post yet test03</li>
             @endforelse
         </ul>
 </x-layout>
