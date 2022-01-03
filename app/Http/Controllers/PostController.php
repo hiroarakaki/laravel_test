@@ -10,6 +10,7 @@ class PostController extends Controller
         'title a',
         'title b',
         'title c',
+        'title d',
     ];
 
     public function index () 
