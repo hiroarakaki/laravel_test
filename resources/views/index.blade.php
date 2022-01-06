@@ -2,7 +2,10 @@
     <x-slot name="title">
         laravel test
     </x-slot>
-    <h1>laravel test</h1>
+    <h1>
+        <span>laravel test</span>
+        <a href="{{ route('posts.create') }}">[Add]</a>
+    </h1>
         <ul>
             @forelse ($posts as $post)
                 <li>
